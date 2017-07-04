@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Nathan Decker</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--  jquery plguin -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- start gallery -->
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>	
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+			
+	});	
+	</script>
+<!-- Add fancyBox main JS and CSS files -->
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+
+</head>
+<body>
+<!-- start header -->
+<div class="header_bg">
+<div class="wrap">
+	<div class="header">
+		
+		<div class="h_right">
+			<ul class="menu">
+				<li class="active"><a href="index.html">home</a></li>
+				<li><a href="#stuffs">about</a></li>
+				<li><a href="#filters">research</a></li>
+				<li><a href="publications.html">publications</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+			
+			<!-- start smart_nav * -->
+	        <nav class="nav">
+	            <ul class="nav-list">
+	                <li class="nav-item"><a href="index.html">Home</a></li>
+	                <li class="nav-item"><a href="about.html">About</a></li>
+	                <li class="nav-item"><a href="portfolio.html">Research</a></li>
+	                <li class="nav-item"><a href="blog.html">Publications</a></li>
+	                <li class="nav-item"><a href="contact.html">Contact</a></li>
+	                <div class="clear"></div>
+	            </ul>
+	        </nav>
+	        <script type="text/javascript" src="js/responsive.menu.js"></script>
+			<!-- end smart_nav * -->
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div div id="stuffs" class="header_btm">
+		<div class="h_left">
+			<h2>Nathan Decker</h2>
+			<h3>I'm an undergraduate physics major at Biola University in La Mirada, California.    My research interests include 3D printing, robotics, and STEM education.  Below, you'll find more information on my research, PDFs of my publications, code for a number of projects, and more.</h3>
+		</div>
+		  
+		<div class="clear"></div>
+	</div>
+</div>
+</div>
+<!-- start main -->
+<div class="main_bg">
+<div class="wrap">
+	<div class="main">
+		<!-- start popup -->
+		<div id="small-dialog" class="mfp-hide">
+			<div class="pop_up">
+			 	<h2>Lorem Ipsum is simply dummy text of the printing and industry</h2>
+			 	<img src="images/zoom.jpg" title="image-name">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
+				<a class="btn" href="details.html">Read more</a>
+			</div>
+		</div>
+		<!-- end popup -->
+		<!-- start gallery  -->
+			<div class="container">
+					<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="icon web app">All</span></li> /
+						<li><span class="filter" data-filter="icon">3D Printing</span></li> /
+						<li><span class="filter" data-filter="web">Robotics</span></li> /
+						<li><span class="filter" data-filter="app">Other</span></li> 
+					</ul>
+		<div id="portfoliolist">
+			<a href="recycled_plastics.html">
+				<div class="portfolio icon" data-cat="icon">
+					<div class="portfolio-wrapper">				
+							<img src="images/pic1.jpg"  alt="Image 2" />
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">3D Printing with Recycled Plastics</p>
+								<span class="text-category">3D Printing</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>		
+			</a>
+			<a href="benchmarking_object.html">
+				<div class="portfolio icon" data-cat="icon">
+					<div class="portfolio-wrapper">			
+							<img src="images/pic2.jpg"  alt="Image 2" />
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">Benchmarking Object for AM</p>
+								<span class="text-category">3D Printing</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>		
+			</a>
+			<a href="fruit_fly.html">
+				<div class="portfolio web" data-cat="web">
+					<div class="portfolio-wrapper">						
+							<img src="images/pic3.jpg"  alt="Image 2" />
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">Drosophila Monitoring</p>
+								<span class="text-category">Robotics</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>				
+			</a>
+			<a href="smart_mirror.html">
+				<div class="portfolio app" data-cat="app">
+					<div class="portfolio-wrapper">			
+							<img src="images/pic4.jpg"  alt="Image 2" />
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">Voice Controlled Smart Mirror</p>
+								<span class="text-category">Other</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>	
+			</a>
+			<a href="nerf_turret.html">	
+				<div class="portfolio web" data-cat="web">
+					<div class="portfolio-wrapper">
+							<img src="images/pic5.jpg"  alt="Image 2" />
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">Motion Tracking Nerf Turret</p>
+								<span class="text-category">Robotics</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>			
+			</a>
+			<a href="stem_education.html">
+				<div class="portfolio app" data-cat="app">
+					<div class="portfolio-wrapper">	
+							<img src="images/pic6.jpg"  alt="Image 2" />
+						<div class="label">
+							<div class="label-text">
+								<p class="text-title">STEM Education</p>
+								<span class="text-category">Other</span>
+							</div>
+							<div class="label-bg"></div>
+						</div>
+					</div>
+				</div>	
+			</a>
+			
+		</div>
+	</div><!-- end container -->
+	</div>
+</div>
+</div>
+<div class="footer_bg">
+<div class="wrap">
+	<div class="footer">
+		
+		<div class="footer_top">
+			<div class="f_nav1">
+				<ul>
+					<li><a href="index.html#stuffs">about</a></li>
+					<li><a href="index.html#filters">research</a></li>
+					<li><a href="publications.html">publications</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="copy">
+				<p class="link"><span>© 2017 Nathan Decker | All rights reserved</span></p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>
