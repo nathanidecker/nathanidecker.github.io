@@ -1782,74 +1782,66 @@ body {
 .cid-rkcwPjMoXS .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-rkcvSU2l7y {
+.cid-rNqW2rAOOJ {
   padding-top: 120px;
-  padding-bottom: 15px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
+.cid-rNqW2rAOOJ .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
 @media (min-width: 992px) {
-  .cid-rkcvSU2l7y .mbr-figure {
+  .cid-rNqW2rAOOJ .mbr-figure {
     padding-right: 4rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-rkcvSU2l7y .mbr-figure {
+  .cid-rNqW2rAOOJ .media-container-row {
+    flex-wrap: wrap-reverse;
+    -webkit-flex-wrap: wrap-reverse;
+  }
+  .cid-rNqW2rAOOJ .mbr-figure {
     padding-bottom: 1rem;
   }
 }
-.cid-rkcvSU2l7y .mbr-text {
+.cid-rNqW2rAOOJ .mbr-text {
   color: #767676;
-}
-.cid-rkcGqlwvVC {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-rkcGqlwvVC .mbr-text {
-  color: #767676;
-}
-.cid-rkcGqlwvVC .mbr-text P {
   text-align: left;
 }
-.cid-rkczoUNpiN {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #efefef;
-}
-.cid-rkczoUNpiN .card-img {
-  background-color: #fff;
-}
-.cid-rkczoUNpiN .card-box {
-  padding: 2rem;
+.cid-rNqXSDEhsz {
+  padding-top: 0px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rkczoUNpiN h4 {
+.cid-rNqXSDEhsz .card-box {
+  background-color: #efefef;
+  padding: 2rem;
+}
+.cid-rNqXSDEhsz h4 {
   font-weight: 500;
   margin-bottom: 0;
   text-align: left;
 }
-.cid-rkczoUNpiN p {
+.cid-rNqXSDEhsz p {
+  color: #767676;
   text-align: left;
 }
-.cid-rkczoUNpiN .mbr-text {
-  color: #767676;
-}
-.cid-rkczoUNpiN .card-wrapper {
-  height: 100%;
+.cid-rNqXSDEhsz .card-wrapper {
+  position: relative;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
-.cid-rkczoUNpiN .card-wrapper:hover {
+.cid-rNqXSDEhsz .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
-@media (min-width: 992px) {
-  .cid-rkczoUNpiN .my-col {
-    flex: 0 0 20%;
-    max-width: 20%;
-    padding: 15px;
-    -webkit-flex: 0 0 20%;
-  }
+.cid-rNqXSDEhsz .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
 .cid-rkcwLpqVZj {
   padding-top: 30px;
