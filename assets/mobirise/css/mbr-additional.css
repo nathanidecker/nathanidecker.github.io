@@ -1871,6 +1871,110 @@ body {
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
+.cid-rR6BiODw4P {
+  padding-top: 120px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rR6BiODw4P p {
+  margin-bottom: 0;
+}
+.cid-rR6BiODw4P .card-box {
+  z-index: 1;
+  position: relative;
+  background-color: rgba(15, 118, 153, 0.8);
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.cid-rR6BiODw4P .card-box .card-title {
+  pointer-events: all;
+}
+.cid-rR6BiODw4P .card-box .mbr-text {
+  pointer-events: all;
+}
+.cid-rR6BiODw4P .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.cid-rR6BiODw4P .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.cid-rR6BiODw4P .card-img img {
+  z-index: -1;
+  height: 100%;
+  min-width: 100%;
+  width: auto;
+}
+.cid-rR6BiODw4P .card-wrap {
+  position: relative;
+}
+.cid-rR6BiODw4P .card {
+  padding-bottom: 2rem;
+}
+.cid-rR6BiODw4P .mbr-section-title {
+  color: #767676;
+  text-align: left;
+}
+.cid-rR6FiRhTtI {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rR6FiRhTtI p {
+  margin-bottom: 0;
+}
+.cid-rR6FiRhTtI .card-box {
+  z-index: 1;
+  position: relative;
+  background-color: rgba(15, 118, 153, 0.8);
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.cid-rR6FiRhTtI .card-box .card-title {
+  pointer-events: all;
+}
+.cid-rR6FiRhTtI .card-box .mbr-text {
+  pointer-events: all;
+}
+.cid-rR6FiRhTtI .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.cid-rR6FiRhTtI .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.cid-rR6FiRhTtI .card-img img {
+  z-index: -1;
+  height: 100%;
+  min-width: 100%;
+  width: auto;
+}
+.cid-rR6FiRhTtI .card-wrap {
+  position: relative;
+}
+.cid-rR6FiRhTtI .card {
+  padding-bottom: 2rem;
+}
 .cid-rkgCiqLCwa .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -2272,7 +2376,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-rkcNwWwO1Q {
-  padding-top: 120px;
+  padding-top: 15px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
