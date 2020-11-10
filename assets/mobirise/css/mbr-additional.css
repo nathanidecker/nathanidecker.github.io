@@ -1809,29 +1809,6 @@ body {
   color: #767676;
   text-align: left;
 }
-.cid-rNraYPxcSp {
-  padding-top: 15px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
-}
-.cid-rNraYPxcSp .line {
-  background-color: #149dcc;
-  color: #149dcc;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-rNraYPxcSp .section-text {
-  padding: 2rem 0;
-}
-.cid-rNraYPxcSp .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-rNraYPxcSp .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-rNqXSDEhsz {
   padding-top: 15px;
   padding-bottom: 15px;
