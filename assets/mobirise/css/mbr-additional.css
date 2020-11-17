@@ -3235,6 +3235,30 @@ body {
 .cid-rkcNwWwO1Q .mbr-text {
   color: #767676;
 }
+.cid-sgAjvFU5Og {
+  background: #ffffff;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.cid-sgAjvFU5Og .image-block {
+  margin: auto;
+}
+.cid-sgAjvFU5Og .mbr-figure {
+  margin: 0 auto;
+}
+.cid-sgAjvFU5Og figcaption {
+  position: relative;
+}
+.cid-sgAjvFU5Og figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-sgAjvFU5Og .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rkcwLpqVZj {
   padding-top: 30px;
   padding-bottom: 30px;
